@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>og stats gods</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+
+    <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+   <!-- <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>!-->
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="clientgame.js"></script>
+</head>
+
+<body>
+  <form id="username" action="">
+          <h1>Please choose a username:</h1>
+      <input id="username-field" autocomplete="off" placeholder="enter a username" /><button>Send</button>
+    </form>
+      
+    <div id="game"></div>
+
+    <form id="message" action="">
+        <h1>Hey, <span id="name"></span></h1>
+      <input id="message-field" autocomplete="off" /><button >Send</button>
+    </form>    
+    <div id="messageBox">
+      <ul id="messages"></ul>
+    </div>
+<div id="roomBox">
+<hr>
+    <h2>Room list</h2>
+    <ul id="room-list"></ul>
+</div>
+</body>
+
+<script>
+
+</script>
+
+</html>
